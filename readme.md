@@ -21,5 +21,5 @@ And run the container with
 
 ```
 docker network create mynet
-docker container run --network mynet --rm -it  -p 8080:80 yvest/nginx:latest;
+docker container run --network mynet --rm -it  -p 8080:80 yvest/nginx:latest
 ```
